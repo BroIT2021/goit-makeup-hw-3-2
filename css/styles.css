@@ -333,7 +333,62 @@ color: var(--hover-color);
     margin-right: 8px;
 
 }
+.port-filt-link{
+    font-weight: 500;
+  padding: 6px 22px;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--bg-color);
+  border-radius: 4px;
+}
+.port-filt-link:focus,
+.port-filt-link:hover{
+ color: var(--white-color);
+    background-color: var(--hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.port-img{
+    width: 100%;
+
+}
+.port-pro-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.port-pro{
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+
+}
+.port-pro:nth-child(3n+3) {
+
+    margin-right: 0;
+}
+.port-pro:nth-child(-n+3) {
+
+    margin-bottom:0 ;
+}
+.port-title{
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 4px;
 
 
+}
+.port-title-sub{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+}.port-name-pro{
+    padding: 20px 24px;
+
+}
 
 
