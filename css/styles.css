@@ -82,7 +82,12 @@ img {
 .cap{
     border-bottom: 1px solid var(--border-bottom);
 }
-.cap-nav-link,
+.cap-nav-link{
+    display: block;
+    padding: 32px 0;
+    color:var(--nav-color);
+    margin-right:50px ;
+}
 .cap-contact {
     display: block;
     padding: 32px 0;
